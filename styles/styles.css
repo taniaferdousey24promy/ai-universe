@@ -1,0 +1,80 @@
+.top-styling {
+    display: flex;
+    flex-direction: row;
+    gap: 65em;
+    margin-top: 50px;
+    margin-right:50px ;
+    margin-left:50px;
+    background-color: #1090D81A;
+    padding-left: 50px ;
+    
+}
+.buttonDiv{
+    padding-top: 40px;
+
+}    
+
+.blog-button{
+    width: 80px;
+    height: 50px;
+    color: white;
+    background-color: #1090D8;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.grid-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    gap: 24px;
+    margin-top: 50px;
+    margin-right:50px ;
+    margin-left:50px;
+    /* background-color: #1090D8; */
+    /* border-radius: 4px; */
+
+}
+
+.card{
+    border: 1px solid #111111; 
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 15px;
+    /* border: 2px solid #e7e7e7;
+
+border-radius: 4px;
+
+padding: .5rem; */
+}
+
+.card img {
+    /* width: 60%; */
+    padding-top: 20px;
+    height: 102px;
+    width:131px ;
+}
+.input-field{
+    display: flex;
+    /* padding: auto; */
+    padding: 20px 20px;
+    gap: 5px;
+
+}
+.input-field input{
+    
+    
+    width: 40%;
+
+}
+.card button{
+    margin-top: 4px;
+    width: 200px;
+    height: 40px;
+    color: white;
+    background-color: #1090D8;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+
+}
