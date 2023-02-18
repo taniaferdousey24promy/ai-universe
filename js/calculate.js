@@ -151,5 +151,13 @@ function convertValueFromString(idOfInputFields){
 }
 
 
+//----------------------------------blog page-----------------------------
+// document.getElementById('blog-button').addEventListener('click', function(){
+
+
+
+// })
+
+
 
    
