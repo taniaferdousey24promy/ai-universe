@@ -9,7 +9,7 @@
     padding-left: 50px ;
     
 }
-.buttonDiv{
+#button-div{
     padding-top: 40px;
 
 }    
@@ -31,8 +31,6 @@
     margin-top: 50px;
     margin-right:50px ;
     margin-left:50px;
-    /* background-color: #1090D8; */
-    /* border-radius: 4px; */
 
 }
 
@@ -41,13 +39,22 @@
     border-radius: 5px;
     text-align: center;
     padding: 10px 15px;
-    /* border: 2px solid #e7e7e7;
+    background-color: white;
 
-border-radius: 4px;
-
-padding: .5rem; */
 }
 
+.card:hover{
+    background-color: aqua;
+}
+
+.tri-card-color-change:hover{
+    background-color: pink;
+}
+
+.rect-card-color-change:hover{
+    background-color: tomato;
+
+}
 .card img {
     /* width: 60%; */
     padding-top: 20px;
@@ -61,11 +68,19 @@ padding: .5rem; */
     gap: 5px;
 
 }
+
+
+
 .input-field input{
     
     
     width: 40%;
+    
 
+}
+
+.input-field-new input{
+    border-width: 0px;
 }
 .card button{
     margin-top: 4px;
@@ -77,4 +92,41 @@ padding: .5rem; */
     border-radius: 10px;
     font-weight: 700;
 
+}
+
+.result-conversion{
+    display: grid;
+    grid-template-columns: 200px 100px;
+    gap: 70px;
+}
+
+/* ---------------------making responsive for mobile screen ------------------------------------------*/
+
+@media only screen and (max-width: 576px) {
+    .grid-cards{
+        display: grid;
+        grid-template-columns: 1fr ;
+        margin-top: 50px;
+        margin-right:50px ;
+        margin-left:50px;
+  }
+
+    .result-conversion{
+        display: grid;
+        grid-template-columns: 50px 50px;
+    
+    }
+
+    #button-for-conversion button{
+        margin-top: 30px;
+    }
+
+    .top-styling {
+        display: grid;
+        grid-template-columns: 50px 50px;
+        gap: 150px;
+
+   
+    
+    }
 }

@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="x-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
-<body>
+<body id="background-color">
     
 
     <div class="top-styling">
@@ -17,8 +17,8 @@
 
         </div>
 
-        <div class ="buttonDiv">
-            <button class = "blog-button "> <a href="blog.html">Blog</a> </button>
+        <div id ="button-div">
+            <button class = "blog-button "> Blog </button>
 
         </div>
         
@@ -27,23 +27,23 @@
     
     <div class="grid-cards">
         <!-- done -->
-        <div class = "card">
+        <div class = "card tri-card-color-change">
             <img src="images/triangle.png" alt="">
             <h2>Triangle</h2>
-            <h3>Area (A) = 0.5 * b*h</h3>
+            <h3>Area (A) = 0.5 &times;b &times;h</h3>
             <div class = "input-field">
                 <input type="number" name="" id="value-b" placeholder="b"> cm
                 <input type="number" name="" id="value-h" placeholder="h"> cm
 
             </div>
-            <button id="calculate-button">Calculate</button>
+            <button id="triangle-button">Calculate</button>
             
         </div>
         <!-- done -->
-        <div class = "card">
+        <div class = "card rect-card-color-change ">
             <img src="images/rectangle.png" alt="">
             <h2>Rectangle</h2>
-            <h3>Area (A) = l * w</h3>
+            <h3>Area (A) = l &times;w</h3>
             <div class = "input-field">
                 <input type="number" name="" id="value-l" placeholder="l"> cm
                 <input type="number" name="" id="value-w" placeholder="w"> cm
@@ -53,29 +53,39 @@
 
         </div>
         <!-- done -->
-        <div class = "card">
+        <div class = "card ">
             <img src="images/parallelogram.png" alt="">
             <h2>Parallelogram</h2>
-            <h3>Area (A) = b * h</h3>
-            <div class = "input-field">
-                <input type="number" name="" id="value-base" placeholder="b"> cm
-                <input type="number" name="" id="value-height" placeholder="h"> cm
+            <h3>Area (A) = b &times;h</h3>
+            <div class = "input-field input-field-new">
+                
+                <div>b = <input type="number" name="" id="value-base" placeholder="b"> cm</div>
+                <div>h = <input type="number" name="" id="value-height" placeholder="h"> cm </div>
+                
 
             </div>
             <button id="parallelogram-button">Calculate</button>
 
         </div>
-        <div class = "card">
+        <div class = "card ">
             <h2><u>Area of calculation</u>  </h2>
+            <div class="result-conversion">
+                <div id = "area-for-results">
 
-            <div id = "area-for-results">
-                <p>here we will see all the answers</p>
-
-
-
-                
+                    
+    
+    
+    
+                    
+    
+                </div>
+                <div id = "button-for-conversion">
+    
+                </div>
 
             </div>
+
+            
             
 
         </div>
@@ -84,10 +94,11 @@
         <div class = "card">
             <img src="images/rhombus.png" alt="">
             <h2>Rhombus</h2>
-            <h3>Area (A) = 0.5 * d1 *d2</h3>
-            <div class = "input-field">
-                <input type="number" name="" id="value-d1" placeholder="d1"> cm
-                <input type="number" name="" id="value-d2" placeholder="d2"> cm
+            <h3>Area (A) = 0.5 &times;d1 &times;d2</h3>
+            <div class = "input-field input-field-new">
+                <div>d1=<input type="number" name="" id="value-d1" placeholder="d1"> cm</div>
+                <div>d2=<input type="number" name="" id="value-d2" placeholder="d2"> cm</div>
+
 
             </div>
             <button id ="rhombus-button">Calculate</button>
@@ -97,10 +108,12 @@
         <div class = "card">
             <img src="images/pentagon.png" alt="">
             <h2>Pentagon</h2>
-            <h3>Area (A) = 0.5 * p *a</h3>
-            <div class = "input-field">
-                <input type="number" name="" id="value-perimeter" placeholder="p"> cm
-                <input type="number" name="" id="value-apothem" placeholder="a"> cm
+            <h3>Area (A) = 0.5 &times;p &times;a</h3>
+            <div class = "input-field input-field-new">
+                <div>p=<input type="number" name="" id="value-perimeter" placeholder="p"> cm</div>
+                <div>a=<input type="number" name="" id="value-apothem" placeholder="a"> cm</div>
+                
+                
 
             </div>
             <button id ="pentagon-button">Calculate</button>
@@ -109,10 +122,12 @@
         <div class = "card">
             <img src="images/ellipse.png" alt="">
             <h2>Ellipse</h2>
-            <h3>Area (A) = pi * a *b</h3>
-            <div class = "input-field">
-                <input type="number" name="" id="value-a-axis" placeholder="a"> cm
-                <input type="number" name="" id="value-b-axis" placeholder="b"> cm
+            <h3>Area (A) =  &pi;ab</h3>
+            <div class = "input-field input-field-new">
+                <div>a=<input type="number" name="" id="value-a-axis" placeholder="a"> cm</div>
+                <div>b=<input type="number" name="" id="value-b-axis" placeholder="b"> cm</div>
+                
+                
 
             </div>
             <button id ="ellipse-button">Calculate</button>
