@@ -31,11 +31,11 @@
             <h2>Triangle</h2>
             <h3>Area (A) = 0.5 * b*h</h3>
             <div class = "input-field">
-                <input type="number" name="" id="" placeholder="b"> cm
-                <input type="number" name="" id="" placeholder="h"> cm
+                <input type="number" name="" id="value-b" placeholder="b"> cm
+                <input type="number" name="" id="value-h" placeholder="h"> cm
 
             </div>
-            <button>Calculate</button>
+            <button id="calculate-button">Calculate</button>
             
         </div>
         <div class = "card">
@@ -63,7 +63,16 @@
 
         </div>
         <div class = "card">
-            <h2>Area of calculation</h2>
+            <h2><u>Area of calculation</u>  </h2>
+
+            <div id = "area-for-results">
+                <p>here we will see all the answers</p>
+
+
+                
+
+            </div>
+            
 
         </div>
         <div class = "card">
@@ -103,6 +112,9 @@
         </div>
 
     </div>
+
+    <!-- Adding javascript file -->
+    <script src="js/calculate.js"></script>
 
   
     
